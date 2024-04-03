@@ -5,7 +5,7 @@ import { combineReducers } from 'redux'
 
 // Define a variable named rootReducer which is the result of combining reducers
 const rootReducer = combineReducers({
-   tasks: taskReducer 
+   tasks: taskReducer,
    // Create a key-value pair where the key is 'tasks' and the value is the taskReducer
 });
 
